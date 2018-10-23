@@ -14,7 +14,7 @@ class App extends Component {
 
     render() {
       return (
-        <div className="fruit-basket">
+        <div>
           <Filter />
           <FilteredFruitList />
           <FruitBasket />
