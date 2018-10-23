@@ -1,7 +1,17 @@
 import React from 'react';
 
 import FruitBasket from './FruitBasket';
+class App extends Component {
+  constructor() {
+    super();
 
-const App = () => <FruitBasket />;
+    this.state = {
+      filters: []
+      items: []
+      filters: [],
+      selectedFilter: null
+    };
+  }
+}
 
 export default App;
