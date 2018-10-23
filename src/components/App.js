@@ -11,6 +11,16 @@ class App extends Component {
       filters: [],
       selectedFilter: null
     };
+
+    render() {
+      return (
+        <div className="fruit-basket">
+          <Filter />
+          <FilteredFruitList />
+          <FruitBasket />
+        </div>
+      );
+    }
   }
 }
 
